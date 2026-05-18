@@ -1,0 +1,15 @@
+google-api-python-client==2.169.0
+langdetect==1.0.9
+holidays==0.74
+emoji==2.14.1
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+matplotlib==3.9.2
+seaborn==0.13.2
+torch==2.7.0
+transformers==4.51.3
+datasets==3.6.0
+optuna==4.3.0
+tqdm==4.66.5
+vaderSentiment==3.3.2

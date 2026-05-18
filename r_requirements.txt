@@ -1,0 +1,47 @@
+# R packages required to run the scripts in R/
+# Install all at once with:
+#   install.packages(readLines("r_requirements.txt")[!grepl("^#", readLines("r_requirements.txt"))])
+
+Ckmeans.1d.dp
+DALEXtra
+RColorBrewer
+SnowballC
+broom
+caret
+corrplot
+cowplot
+dplyr
+flextable
+fuzzyjoin
+ggcorrplot
+ggplot2
+glmnet
+gridExtra
+httr
+iml
+janitor
+jsonlite
+kableExtra
+knitr
+lubridate
+mlr3
+pacman
+patchwork
+purrr
+randomForest
+ranger
+readxl
+rvest
+scales
+stargazer
+stringdist
+stringi
+stringr
+textclean
+tibble
+tidyr
+tidytext
+vader
+wordcloud
+writexl
+xgboost

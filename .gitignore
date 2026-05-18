@@ -1,0 +1,65 @@
+# ===========================
+# SENSITIVE DATA
+# ===========================
+Sensitive Data/
+.env
+.env.*
+.Renviron
+.Rprofile
+credentials.json
+credentials.yml
+credentials.yaml
+secrets.json
+secrets.yml
+secrets.yaml
+api_key.txt
+api_key.json
+.api_key
+.secret
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ===========================
+# R-SPECIFIC
+# ===========================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/.cache/
+packrat/lib/
+packrat/src/
+*.Rout
+*-Ex.R
+
+# ===========================
+# PYTHON-SPECIFIC
+# ===========================
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# ===========================
+# LARGE DATA FILES (>50MB — too large for GitHub)
+# ===========================
+super_final_comments.csv
+super_final_comments_labeled.csv
+cleaned_new_comments_corrected.csv
+comments_corrected_19_20.csv
+
+# ===========================
+# GENERAL
+# ===========================
+.DS_Store
+Thumbs.db
+*.log
