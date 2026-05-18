@@ -46,6 +46,10 @@ To isolate the pure predictive value of buzz, all models in this section **exclu
 
 **An important nuance:** In tree-based models, `log_n_comments` (comment volume) is ranked as the top predictor when `opening_locs` is excluded. Linear models do not rank buzz among their top features — they rely instead on release timing, MPAA rating, and genre. This divergence suggests buzz operates through non-linear interactions that OLS-type models cannot capture.
 
+The grid below shows the top 10 variable importance drivers across all six model families in the **no `opening_locs`** setting — confirming that comment volume rises to the top in tree-based models while remaining absent from linear model rankings:
+
+![Variable Importance Grid (No Opening Locations)](results/figures/variable_importance_grid.png)
+
 ---
 
 ### Part 2 — What is the best overall model? (Section 5.2)
@@ -88,9 +92,7 @@ Two complementary importance metrics were computed for the best XGBoost model: *
 
 ![XGBoost Feature Importance](results/figures/XGBoost_Importance_Comparison.png)
 
-Both methods agree: `opening_locs` dominates by a large margin, followed by `release_week`, `run_time`, pandemic era, sequel status, and star power. The feature importance grid below shows the top 10 drivers across all six model families:
-
-![Variable Importance Grid](results/figures/variable_importance_grid.png)
+Both methods agree: `opening_locs` dominates by a large margin, followed by `release_week`, `run_time`, pandemic era, sequel status, and star power.
 
 ---
 
